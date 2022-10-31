@@ -4,7 +4,8 @@ import { middyfy } from '@libs/lambda';
 
 import schema from './schema';
 
-const createStudent: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
+const createStudent: ValidatedEventAPIGatewayProxyEvent<typeof schema> 
+= async (event) => {
   return formatJSONResponse({
     
   });

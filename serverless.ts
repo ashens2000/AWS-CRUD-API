@@ -24,14 +24,14 @@ const serverlessConfiguration: AWS = {
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
       NODE_OPTIONS: '--enable-source-maps --stack-trace-limit=1000',
-      DBHOSTNAME:'student-service.cluster-cklh5iikwopv.us-east-1.rds.amazonaws.com',
+      DBHOSTNAME:'yourapi',
       DBPORT: '5432',
       DBNAME:
         'postgres',
       DBUSERNAME:
         'postgres',
       DBPASSWORD:
-        'Lwway#2000',
+        'pass',
       DBSCHEMA:
         'public',
     },
